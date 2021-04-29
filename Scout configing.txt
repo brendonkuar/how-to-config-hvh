@@ -1,0 +1,87 @@
+How to config by SinnyHvH
+youtube https://www.youtube.com/channel/UCh6tSrnJGzuOuHmWlNvJ9rg/
+This is a tutorial on how to config a CSGO cheat for better experience.
+In the CS:GO buy menu - there are weapons you can buy and see the details of.
+You can see their; 
+- Damage (1)	
+- Firerate (2)
+- Recoil control (3)
+- Accurate range (4)
+- Armor penetration. (5)
+
+The weapon we're going to configure is the scout!
+
+All of this helps to configure your settings.
+(1) Starting off with Damage. Now the damage depends on the weapon you're using. Which is why some cheats use different weapon configurations for you to use and save as a ".cfg" or 
+your default configuration file name. (Depending on your cheat software.)
+
+Minimum damage is used to ensure that you hit the player for that damage you set your minimum damage to. The lower - the less damage you're going to hit your enemy for.
+
+Now for some cheats - there are aim modes. These aim modes change the function of the aimbot.
+Damage. The cheat will go for the most damage.
+Accuracy. The cheat will go for accuracy, it also messes with minimum damage at some points.
+Safety. It will skip some aimpoints if the aimpoints seem to be to 'unsafe.' This also messes with minimum damage.
+
+Here are the possible hitpoints for scout.
+
+                               unarmored  |  armored         
+
+Head	                  352	    299
+Chest & Arm	  88	      74
+Stomach	                  110	      93
+Leg	                    66	      66
+
+The scout does 88 damage. But if you hit unarmored player in the stomach, it would instant kill him. Unless the enemy is wearing armor. 
+This shows that it would be good to aim for head and stomach. Since the head and stomach does more damage than chest, arms, and legs.
+
+So, you would have to set your minimum damage to 88. But what if the enemy is behind a wall? The scout details also show the penetration damage.
+You would need to set your penetration damage to 85 or 90 (since you're behind a wall, it blocks more of the shot.) 
+
+The firing rate of the scout is 48 RPM in which if you used no hitchance. You'd always have a 100% chance of missing.
+But if you set your hitchance to 48 itself. You now have a 52% chance of missing your shot. Which is not what you want.
+A good hitchance would be from 70-85 because you would have less of a chance of missing. 
+
+70 hitchance giving you a 30% chance of missing.
+75 hitchance giving you a 25% chance of missing.
+85 hitchance giving you a 15% chance of missing
+
+Hitchance is also in unison with minimum damage.
+
+The higher the hitchance, the less chance you have for missing. But the slower you're going to shoot if your hitchance is higher.
+
+The autostop function in the cheat helps with your accuracy. If you don't stop, you will miss. But if you do stop. You will shoot and possibly hit the enemy.
+
+- Auto stop, useful for scout. The cheat will slow down if it encounters an enemy but will allow you to move quicker.
+- Between shots, useful for auto. The cheat will slow your movement down between shots.  
+- Force accuracy, useful for auto. The cheat will stop you completely.
+- Early. Useful for scout + auto. Before peeking the enemy, the cheat will slow you down.
+
+For scout it would be easier to use autostop without any other modifacation (Between shots, Force, Early, etc.) 
+
+Mutlipoint is used for aiming at more player hitpoints. You have to balance everything out. If not, you'll miss or they'll shoot you before you shoot them.
+Body mutlipoint is good for scout - If not - the scout would only aim in the middle of the stomach and not the edges. Same for head. But this time, you'd need to balance head as well as
+body. Think of multipoint as a circle in the middle of your head. The more you increase the multipoint, the bigger the circle gets. The smaller the decrease the slider. The less the circle gets.
+
+A good multipoint for the head would be 50-70. (This is bigger because we want to aim for the head more than the body.)
+A good multipoint for the body would be 30-40. (This is smaller because we don't want to shoot directly when the body peeks.)
+
+Safe point is a safety feature. If the cheat doesn't attempt to go for head. It will pick an aimpoint on the body and shoot at that point unless the head is lethal.
+
+For the Anti-aim there are a few good settings to keep yourself from getting hit constantly by other players. 
+- Down back is a good anti-aim for scouting.
+- Auto direction can be used with a bit of extrapolation.
+- A bit of jitter (Not a lot) to confuse the enemy resolver.
+- Fake lagging also helps. (Put your fake lag limit from 6-8) 
+- Hideshots helps if you don't want your Anti-aim to flick up and you get onshot killed.
+
+Combinations? 
+
+Jitter(23) + Fakelag(8) // Sometimes may mess aiming up itself, so this is optional
+Auto-direction + extrapolation(3x-4x) 
+Minimum damage(88) + Auowall damage(85-90) + Hitchance(70-85) 
+Autostop(No modifacation)
+Hitboxes(Head, Stomach) 
+Headpointscale(70) + Bodypointscale(35) + Staticpointscale(ON) + PointscaleSafety(OFF)
+
+
+
